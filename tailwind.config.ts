@@ -9,6 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        white:"#ffff",
+        black:"#000",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

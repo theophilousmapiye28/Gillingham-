@@ -3,13 +3,9 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      
-home
-
-
+      academy
     </div>
   )
 }
 
 export default page
-
