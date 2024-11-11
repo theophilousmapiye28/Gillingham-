@@ -1,0 +1,40 @@
+/* Animation for links */
+.navbar-link {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(120deg, #ff7eb9, #ff65a3);
+    transition: left 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .navbar-link:hover::before {
+    left: 0;
+  }
+  
+  .navbar-link:hover {
+    color: #9333ea;
+    font-weight: bold;
+  }
+  
+  /* Mobile Menu Link animations */
+  .mobile-menu-link {
+    animation: slideIn 0.5s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  

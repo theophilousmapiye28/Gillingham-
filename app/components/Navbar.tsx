@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Import icons from react-icons
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import logo from "@/public/Images/Gillingham logo 1.png";
 
 const Navbar = () => {

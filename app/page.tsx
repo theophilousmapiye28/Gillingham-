@@ -1,16 +1,17 @@
 import React from 'react'
+
 import Navbar from "./components/Navbar";
 
 
-const page = () => { 
+const page = () => {
   return (
-    <div >
-  <Navbar/>
+    <div>
 
+  <Navbar/>
+      <HeroSection/>
 
     </div>
   )
 }
 
 export default page
-
