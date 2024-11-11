@@ -1,10 +1,11 @@
 import React from 'react'
 
-const page = () => {
+
+
+const page = () => { 
   return (
-    <div>
-      
-home
+    <div className='bg-white  h-[100%] w-full'>
+  
 
 
     </div>
