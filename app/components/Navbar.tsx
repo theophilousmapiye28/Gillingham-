@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Import icons from react-icons
-import logo from "@/public/Images/academ.png";
+import logo from "@/public/Images/Gillingham logo 1.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,8 +14,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white text-black h-[15vh] flex items-center ">
-      <div className="flex justify-between items-center container mx-auto px-4">
+    <div className="bg-white mb- text-black h-[15vh] flex items-center ">
+      <div className="flex justify-between items-center container ml-[20px] px-4">
         
         {/* Logo */}
         <Link href="/">
@@ -23,7 +23,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex space-x-[10vh] text-xl font-semibold">
+        <div className="hidden md:flex space-x-8 text-xl font-semibold">
           <Link href="/">Home</Link>
           <Link href="/about">About Us</Link>
           <Link href="/academy">Academy</Link>
