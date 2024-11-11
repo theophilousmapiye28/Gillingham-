@@ -14,12 +14,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white mb- text-black h-[15vh] flex items-center drop-shadow-2xl ">
+    <div className="bg-white mb- text-black h-[12vh] flex items-center drop-shadow-xl ">
       <div className="flex justify-between items-center container m-[10px] px-4">
         
         {/* Logo */}
         <Link href="/">
-          <Image className="h-12 w-full sm:h-16 sm:w-full md:h-[15vh] md:w-[15vh] " src={logo} alt="logo" />
+          <Image className="h-12 w-full sm:h-16 sm:w-full md:h-[10vh] ml-5 md:w-full " src={logo} alt="logo" />
         </Link>
 
         {/* Desktop Links */}
