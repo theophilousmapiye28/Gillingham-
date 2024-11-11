@@ -1,10 +1,12 @@
 import React from 'react'
-import HeroSection from '../app/components/HeroSection'
+import HeroSection from './components/HeroSection'
 
-function page() {
+const page = () => {
   return (
     <div>
+
       <HeroSection/>
+
     </div>
   )
 }
