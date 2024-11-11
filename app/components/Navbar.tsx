@@ -14,25 +14,25 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white mb- text-black h-[15vh] flex items-center ">
-      <div className="flex justify-between items-center container ml-[20px] px-4">
+    <div className="bg-white mb- text-black h-[15vh] flex items-center drop-shadow-2xl ">
+      <div className="flex justify-between items-center container m-[20px] px-4">
         
         {/* Logo */}
         <Link href="/">
-          <Image className="h-[15vh] w-full" src={logo} alt="logo" />
+          <Image className="h-12 w-full sm:h-16 sm:w-full md:h-[15vh] md:w-[15vh] " src={logo} alt="logo" />
         </Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 text-xl font-semibold">
-          <Link href="/">Home</Link>
-          <Link href="/about">About Us</Link>
-          <Link href="/academy">Academy</Link>
-          <Link href="/contact">Contact Us</Link>
+          <Link className="active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" href="/">Home</Link>
+          <Link className="active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" href="/about">About Us</Link>
+          <Link className="active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" href="/academy">Academy</Link>
+          <Link className="active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" href="/contact">Contact Us</Link>
         </div>
 
         {/* Become a Sponsor Button */}
         <div className="hidden md:block">
-          <Link href="/sponsor" className="bg-blue-700 font-bold text-lg rounded-lg text-white p-3">
+          <Link href="/sponsor" className="bg-blue-700 active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all font-bold text-lg rounded-lg text-white p-3 ">
             Become our sponsor
           </Link>
         </div>
