@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div>
-      <div className='flex flex-wrap justify-center lg:flex-row lg:p-20 p-5'>
+      <div className='flex bg-white flex-wrap justify-center lg:flex-row lg:p-20 p-5'>
         <div className='lg:w-1/3'>
           {/* Defining layout as responsive and ensuring width and height */}
           <Image src="/Images/Gillingham_logo_1.svg" alt="Logo" width={150} height={80} layout="responsive" />

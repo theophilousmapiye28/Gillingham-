@@ -5,7 +5,7 @@ import  HeroSection from "./components/HeroSection"
 
 const page = () => {
   return (
-    <div>
+    <div className='bg-white'>
 
   <Navbar/>
      <HeroSection/>
